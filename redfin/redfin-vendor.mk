@@ -41,6 +41,8 @@ PRODUCT_PACKAGES += \
     DevicePersonalizationPrebuiltPixel2020 \
     DiagMon \
     DMService \
+    DreamlinerPrebuilt \
+    DreamlinerUpdater \
     EuiccGoogle \
     EuiccSupportPixel \
     GCS \
