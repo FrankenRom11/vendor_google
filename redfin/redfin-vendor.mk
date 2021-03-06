@@ -174,6 +174,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/product/etc/firmware/music_detector.descriptor:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/music_detector.descriptor \
     $(LOCAL_PATH)/proprietary/product/etc/firmware/music_detector.sound_model:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/music_detector.sound_model \
     $(LOCAL_PATH)/proprietary/product/etc/init/qspmsvc.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/qspmsvc.rc \
+    $(LOCAL_PATH)/proprietary/product/etc/init/twoshay.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/twoshay.rc \
     $(LOCAL_PATH)/proprietary/product/etc/permissions/android.hardware.telephony.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.telephony.euicc.xml \
     $(LOCAL_PATH)/proprietary/product/etc/permissions/com.android.omadm.service.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.omadm.service.xml \
     $(LOCAL_PATH)/proprietary/product/etc/permissions/com.android.sdm.plugins.connmo.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.sdm.plugins.connmo.xml \
@@ -212,11 +213,14 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/product/etc/sysconfig/whitelist_com.android.omadm.service.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/whitelist_com.android.omadm.service.xml \
     $(LOCAL_PATH)/proprietary/product/lib/libdmengine.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libdmengine.so \
     $(LOCAL_PATH)/proprietary/product/lib/libdmjavaplugin.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libdmjavaplugin.so \
+    $(LOCAL_PATH)/proprietary/product/lib/libhidltransport.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libhidltransport.so \
     $(LOCAL_PATH)/proprietary/product/lib/libqspmsvc.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libqspmsvc.so \
     $(LOCAL_PATH)/proprietary/product/lib/libtrigger-handler.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libtrigger-handler.so \
     $(LOCAL_PATH)/proprietary/product/lib/libupdateprof.qti.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libupdateprof.qti.so \
     $(LOCAL_PATH)/proprietary/product/lib/vendor.qti.qspmhal@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.qspmhal@1.0.so \
     $(LOCAL_PATH)/proprietary/product/lib64/libqspmsvc.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libqspmsvc.so \
+    $(LOCAL_PATH)/proprietary/product/lib64/libgdx.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libgdx.so \
+    $(LOCAL_PATH)/proprietary/product/lib64/libhidltransport.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libhidltransport.so \
     $(LOCAL_PATH)/proprietary/product/lib64/libsketchology_native.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libsketchology_native.so \
     $(LOCAL_PATH)/proprietary/product/lib64/libtrigger-handler.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libtrigger-handler.so \
     $(LOCAL_PATH)/proprietary/product/lib64/libupdateprof.qti.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libupdateprof.qti.so \
@@ -2268,6 +2272,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/radio/qcril_database/upgrade/13_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/13_version_update_ecc_table.sql \
     $(LOCAL_PATH)/proprietary/vendor/radio/qcril_database/upgrade/14_add_fr_normal_ecc.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/14_add_fr_normal_ecc.sql \
     $(LOCAL_PATH)/proprietary/vendor/radio/qcril_database/upgrade/15_fr_normal_ecc_on_wifi.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/15_fr_normal_ecc_on_wifi.sql \
+    $(LOCAL_PATH)/proprietary/vendor/radio/qcril_database/upgrade/16_ch_normal_ecc.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/16_ch_normal_ecc.sql \
     $(LOCAL_PATH)/proprietary/vendor/radio/qcril_database/upgrade/1_version_intro.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/1_version_intro.sql \
     $(LOCAL_PATH)/proprietary/vendor/radio/qcril_database/upgrade/2_version_add_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/2_version_add_wps_config.sql \
     $(LOCAL_PATH)/proprietary/vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/3_version_update_wps_config.sql \
