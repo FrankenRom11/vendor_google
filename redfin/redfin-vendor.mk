@@ -988,9 +988,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/etc/vintf/manifest/manifest_input.classifier-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_input.classifier-service.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/vintf/manifest/manifest_wifi_ext.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_wifi_ext.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/vintf/manifest/pixel-display-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/pixel-display-default.xml \
-    $(LOCAL_PATH)/proprietary/vendor/etc/vintf/manifest/android.hardware.power-service.pixel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.power-service.pixel.xml \
-    $(LOCAL_PATH)/proprietary/vendor/etc/vintf/manifest/android.hardware.thermal@2.0-service.pixel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.thermal@2.0-service.pixel.xml \
-    $(LOCAL_PATH)/proprietary/vendor/etc/vintf/manifest/android.hardware.sensors@2.0-multihal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.sensors@2.0-multihal.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/vintf/manifest/rebootescrow-citadel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/rebootescrow-citadel.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.display.allocator-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.hardware.display.allocator-service.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.display.composer-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.hardware.display.composer-service.xml \
